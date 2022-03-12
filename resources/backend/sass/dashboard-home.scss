@@ -1,0 +1,150 @@
+
+#stats-row{
+
+	//margin-top: 35px;
+
+
+	[class*="col"]{
+
+
+		.words{
+			display: block;
+			font-size: 14px;
+			color: $color-blue-2;
+
+		/*	@include media-breakpoint-down(md) {
+				color: #F9F9F9;
+			}*/
+		}
+
+		.number{
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 600;
+			font-size: 18px;
+			color: $color-blue-2;
+
+		    white-space: nowrap;
+
+			/*@include media-breakpoint-down(md) {
+				color: #fff;
+			}*/
+
+			.up, .down{
+				font-size: 12px;
+
+				span{
+					@include media-breakpoint-down(md) {
+						display: none;
+					}
+				}
+			}
+
+			.up{
+				color: #01BF16; // green
+			}
+
+			.down{
+				color: #FF3B3B; // red
+			}
+		}
+
+	}
+
+}
+
+
+#activity{
+	@include media-breakpoint-down(md) {
+		display: none;
+	}
+
+	.message{
+		background-color: #FFFFFF;
+		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+
+		border-radius: 0px;
+
+		padding: 12px;
+
+		margin-bottom: 15px;
+
+		font-size: 12px;
+		color: #8EBEF8;
+
+	}
+}
+
+.dashboard-home-posts{
+
+	.search-bar{
+		position: relative;
+
+		.form-control{
+			background-color: #F0F0F0;
+			border: 1px solid #C9C9C9;
+			font-size: 14px;
+			max-width: 200px;
+		}
+
+		.close-search{
+			background-color: #fff;
+
+			position: absolute;
+
+			top: 6px;
+			right: 7px;
+			width: 25px;
+			height: 25px;
+			border-radius: 100%;
+			text-align: center;
+			cursor: pointer;
+		}
+
+	}
+
+	.a-post{
+		margin-bottom: 35px;
+
+		.media-wrapper{
+
+			@include media-breakpoint-down(md) {
+
+				margin-left: -24px;
+				margin-right: -24px;
+
+			}
+
+		}
+		
+		img, video{
+			width: 100%;
+
+		}
+
+
+		.package{
+			color: $color-pink-2;
+			font-size: 16px;
+			font-weight: 600;
+			//text-transform: uppercase;
+			margin-top: 18px;
+			
+			&.gray{
+				color: rgba(31, 30, 52, .4);
+			}
+		}
+		.title{	
+			font-family: 'Montserrat', sans-serif !important;
+			font-size: 18px !important;
+			font-weight: 600;
+			color: $color-blue-2;
+			margin-top: 10px;
+		}
+		.description{
+			font-family: 'Montserrat', sans-serif !important;
+			font-size: 14px;
+			color: rgba(31, 30, 52, .8);
+			margin-top: 15px;
+		}
+	}
+}

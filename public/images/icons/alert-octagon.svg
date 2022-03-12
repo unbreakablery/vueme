@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.367" height="17.367" viewBox="0 0 17.367 17.367">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:none;stroke:#ff8002;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="prefix__alert-octagon" transform="translate(.75 .75)">
+        <path id="prefix__Path_1451" d="M6.649 2h6.569l4.649 4.649v6.569l-4.649 4.649H6.649L2 13.218V6.649z" class="prefix__cls-1" data-name="Path 1451" transform="translate(-2 -2)"/>
+        <path id="prefix__Line_31" d="M0 0L0 3.4" class="prefix__cls-1" data-name="Line 31" transform="translate(8.017 4.595)"/>
+        <path id="prefix__Line_32" d="M0 0L0.008 0" class="prefix__cls-1" data-name="Line 32" transform="translate(7.933 11.107)"/>
+    </g>
+</svg>

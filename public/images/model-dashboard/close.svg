@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="atom_icon_close_solid" data-name="atom/icon/close/solid" transform="translate(0.288 -0.144)">
+    <rect id="Rectangle_3768" data-name="Rectangle 3768" width="16" height="16" transform="translate(-0.288 0.144)" fill="#fff"/>
+    <g id="Group_26447" data-name="Group 26447" transform="translate(0.992 0.991)">
+      <g id="times-circle-solid" transform="translate(0.697 0.3)">
+        <path id="Icon_material-cancel" data-name="Icon material-cancel" d="M9.049,3A6.049,6.049,0,1,0,15.1,9.049,6.044,6.044,0,0,0,9.049,3Zm3.025,8.221-.853.853L9.049,9.9,6.877,12.074l-.853-.853L8.2,9.049,6.025,6.877l.853-.853L9.049,8.2l2.172-2.172.853.853L9.9,9.049Z" transform="translate(-3 -3)" fill="rgba(231,86,71,0.8)"/>
+      </g>
+      <rect id="Rectangle_3780" data-name="Rectangle 3780" width="13" height="13" transform="translate(-0.279 0.152)" fill="none"/>
+    </g>
+  </g>
+</svg>

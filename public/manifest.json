@@ -1,0 +1,62 @@
+{
+  "short_name": "Respectfully",
+  "name": "Respectfully",
+  "description": "Cool text goes here",
+  "orientation": "portrait-primary",
+  "theme_color": "#9759FF",
+  "background_color": "#9759FF",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/pwa/logo48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/pwa/logo72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "images/pwa/logo96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/pwa/logo144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/pwa/logo168.png",
+      "type": "image/png",
+      "sizes": "168x168"
+    },
+    {
+      "src": "images/pwa/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/pwa/logo128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "images/pwa/logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "images/pwa/logo384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "images/pwa/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://respectfully.com"
+}

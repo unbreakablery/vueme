@@ -1,0 +1,16 @@
+<svg id="money_icon" data-name="money icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M0,9a9,9,0,1,1,9,9A9,9,0,0,1,0,9Z" fill="#131220"/>
+    </clipPath>
+  </defs>
+  <g id="Group_26453" data-name="Group 26453" transform="translate(2 2)">
+    <g id="usd-circle-solid" transform="translate(1 1)">
+      <g id="Mask_Group_4" data-name="Mask Group 4" clip-path="url(#clip-path)">
+        <path id="usd-circle-solid-2" data-name="usd-circle-solid" d="M9,.323a9,9,0,1,0,9,9A9,9,0,0,0,9,.323Zm.871,13.645v.581a.582.582,0,0,1-.581.581H8.71a.582.582,0,0,1-.581-.581V13.96a3.224,3.224,0,0,1-1.684-.548.583.583,0,0,1-.083-.915l.435-.41a.589.589,0,0,1,.715-.058,1.412,1.412,0,0,0,.722.2H9.867a.8.8,0,0,0,.744-.849.848.848,0,0,0-.552-.824L7.44,9.758a2.59,2.59,0,0,1-1.785-2.49A2.542,2.542,0,0,1,8.129,4.677V4.1a.582.582,0,0,1,.581-.581H9.29a.582.582,0,0,1,.581.581v.588a3.224,3.224,0,0,1,1.684.548.583.583,0,0,1,.083.915l-.435.41a.589.589,0,0,1-.715.058,1.412,1.412,0,0,0-.722-.2H8.133a.8.8,0,0,0-.744.849.848.848,0,0,0,.552.824l2.613.795a2.59,2.59,0,0,1,1.785,2.49A2.534,2.534,0,0,1,9.871,13.968Z" transform="translate(0 -0.322)" fill="#131220"/>
+      </g>
+    </g>
+    <rect id="Rectangle_3790" data-name="Rectangle 3790" width="20" height="20" fill="none"/>
+  </g>
+  <rect id="Rectangle_3791" data-name="Rectangle 3791" width="24" height="24" fill="none"/>
+</svg>

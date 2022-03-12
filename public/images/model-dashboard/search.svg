@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="atom_icon_search_solid" data-name="atom/icon/search/solid" transform="translate(-0.02 -0.144)">
+    <rect id="Rectangle_3815" data-name="Rectangle 3815" width="16" height="16" transform="translate(0.02 0.144)" fill="none"/>
+    <g id="Group_26569" data-name="Group 26569" transform="translate(0.992 0.991)">
+      <rect id="Rectangle_3814" data-name="Rectangle 3814" width="14" height="13" transform="translate(0.028 0.152)" fill="none"/>
+      <path id="Icon_ionic-ios-search" data-name="Icon ionic-ios-search" d="M16.456,15.718l-3.365-3.4a4.8,4.8,0,1,0-.728.737l3.343,3.374a.518.518,0,0,0,.731.019A.521.521,0,0,0,16.456,15.718ZM9.323,13.1A3.786,3.786,0,1,1,12,11.991,3.763,3.763,0,0,1,9.323,13.1Z" transform="translate(-3.772 -4.193)"/>
+    </g>
+  </g>
+</svg>

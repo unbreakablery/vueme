@@ -1,0 +1,11 @@
+<svg id="analytics_icon" data-name="analytics icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path" d="M0,0H24V24H0Z" fill="none"/>
+  <g id="icon-graph" transform="translate(-8 -12)">
+    <g id="Layer_2" transform="translate(11.001 17)">
+      <g id="Layer_1" transform="translate(-0.001)">
+        <path id="Path_5992" d="M1.126,14.579A1.173,1.173,0,0,1,0,13.362V.607A.588.588,0,0,1,.564,0h.563a.587.587,0,0,1,.562.607V12.755H17.437a.587.587,0,0,1,.563.61v.607a.588.588,0,0,1-.563.607Zm13.617-3.756a.539.539,0,0,1-.5-.5V1.307a.539.539,0,0,1,.5-.5h.876a.539.539,0,0,1,.5.5v9.015a.539.539,0,0,1-.5.5Zm-3.482,0h0a.61.61,0,0,1-.5-.616V3.745a.611.611,0,0,1,.5-.616h.876a.61.61,0,0,1,.5.616v6.462a.609.609,0,0,1-.5.616Zm-3.639,0h0a.513.513,0,0,1-.5-.449V5.653a.514.514,0,0,1,.5-.45H8.5a.514.514,0,0,1,.5.45v4.72a.514.514,0,0,1-.5.449Zm-3.365,0a.538.538,0,0,1-.5-.5V7.567a.538.538,0,0,1,.5-.5h.876a.539.539,0,0,1,.5.5v2.755a.539.539,0,0,1-.5.5Z" transform="translate(0)" fill="#131220"/>
+      </g>
+    </g>
+    <rect id="Rectangle_3827" data-name="Rectangle 3827" width="20" height="20" transform="translate(10 14)" fill="none"/>
+  </g>
+</svg>

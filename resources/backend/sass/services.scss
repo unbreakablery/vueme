@@ -1,0 +1,281 @@
+#mobile-services{
+
+	label{
+		color: rgba(31, 30, 52, .6);
+		font-size: 12px;
+		font-weight: 500;
+	}
+
+	.row-mobile-service{
+		padding-top: 25px;
+		padding-bottom: 25px;
+
+		.col-name{
+			font-size: 14px;
+			font-weight: 500;
+
+			.fas, .fa{
+				margin-right: 5px;
+			}
+		}
+
+	}
+
+}
+
+.weekly-schedule{
+	// border-radius: 20px;
+	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;
+
+	@media (min-width: 1566px) {
+		max-width: 1160px !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	@include media-breakpoint-down(md) {
+		display: block;
+
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.day-of-week{
+		position: relative;
+
+		flex-basis: 0;
+		flex-grow: 1;
+		max-width: 100%;
+		width: calc(100%/7);
+
+		@include media-breakpoint-down(md) {
+			width:100%;
+			flex-basis: auto;
+		}
+
+		.style{
+			position: relative;
+			background-color: #fff;
+			border: 1px solid rgba(31, 30, 52, .1);
+			color: #fff;
+			text-align: center;
+			padding: 6px;
+			cursor: pointer;
+			min-height: 75px;
+			@include media-breakpoint-down(md) {
+				width:100%;
+				min-height: 50px;
+			}
+
+			.day{
+				display: block;
+				margin-top: 10px;
+
+
+				font-size: 16px;
+				font-weight: 600;
+				color: #1F1E34;
+
+				text-transform: capitalize;
+			}
+
+			.time{
+				font-size: 10px;
+				font-weight: 500;
+				color: rgba(31, 30, 52, .2);
+			}
+
+			&:before{
+				content: ' ';
+				display: block;
+				position: absolute;
+
+				width: 16px;
+				height: 16px;
+
+				background: #F4F4F5;
+				border: 1px solid rgba(31, 30, 52, .1);
+				border-radius: 8px;
+				right: 8px;
+			}
+		}
+
+		&:first-child .style{
+			border-top-left-radius: 0px;
+			border-bottom-left-radius: 0px;
+		}
+
+		&:last-child .style{
+			border-top-right-radius: 0px;
+			border-bottom-right-radius: 0px;
+		}
+
+		&:last-child .overlay{
+			left: auto;
+			right: 0px;
+		}
+		
+		input[type=checkbox] {
+			position: absolute;
+			opacity: 0;
+			cursor: pointer;
+			height: 0;
+			width: 0;
+		}
+
+		input:checked ~ .style{
+
+			background-color: #9759FF;
+
+			.day{
+				color: #fff;
+			}
+
+			.time{
+				color: rgba(249, 249, 249, .4);
+			}
+
+			&:before{
+				background-color: rgba(249, 249, 249, .6);
+				border-color: #1F1E34;
+			}
+
+			&:after{
+				content: ' ';
+				display: block;
+				position: absolute;
+				top: 10px;
+				right: 12px;
+
+				width: 8px;
+				height: 8px;
+
+				background-color: #1F1E34;
+				border-radius: 8px;
+			}
+		}
+
+		&:hover{
+			.overlay, .outter-overlay{
+				display: block;
+			}
+		}
+
+		.outter-overlay{
+			display: none;
+			position: absolute;
+			left: -50%;
+			z-index: 900;
+		}
+
+		.overlay{
+			
+			width: 350px;
+
+			border: 1px solid #E6E9ED;
+			border-radius: 8px;
+			background-color: #fff;
+			box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+			margin-top: 5px;
+			padding: 15px;
+
+			text-align: center;
+
+			.to:after{
+				content: 'TO';
+				font-size: 10px; 
+				font-weight: 500; 
+				color: rgba(31, 30, 52, .4);
+			}
+
+			.form-control{
+				display: inline-block;
+				width: 130px;
+				font-size: 10px;
+			}
+
+		}
+
+		&.error .style{
+
+			.day{
+				color: red !important;
+			}
+
+
+		}
+
+		@include media-breakpoint-down(md) {
+			display: block;
+			margin-bottom: 0px;
+
+			.style, &:first-child .style, &:last-child .style{
+				border-top-left-radius: 0px;
+				border-top-right-radius: 0px;
+				border-bottom-left-radius: 0px;
+				border-bottom-right-radius: 0px;
+			}
+
+			.style{
+				text-align: left;
+
+				.day{
+					display: inline-block;
+					margin-top: 0px;
+					padding-left: 30px;
+					padding-right: 0px;
+				}
+
+
+
+				.time{
+					float: right;
+					margin-top: 5px;
+					padding-right: 15px;
+				}
+
+				&:before{
+					top: 10px;
+					left: 5px;
+				}
+
+				&:after{
+					top: 14px !important;
+					left: 9px !important;
+				}
+				
+			}
+			
+			.overlay{
+				margin-top: 0px;
+				box-shadow: 0 0 0 transparent;
+			}
+
+			.outter-overlay, .overlay{
+
+				position: relative;
+
+				display: block;
+
+				border-radius: 0px;
+
+				width: auto;
+
+				left: 0px;
+
+			}
+
+		}
+
+		@media (max-width: 315px) {
+			.to:after{
+				display: block;
+			}
+		}
+
+	}
+
+
+}

@@ -1,0 +1,6 @@
+<svg id="check_box" data-name="check box" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Shape" d="M1.714,16A1.714,1.714,0,0,1,0,14.286V1.714A1.714,1.714,0,0,1,1.714,0H14.286A1.714,1.714,0,0,1,16,1.714V14.286A1.714,1.714,0,0,1,14.286,16Z" transform="translate(4 4)" fill="#656b72"/>
+  <path id="Path" d="M0,12.16V.64A.64.64,0,0,1,.64,0H12.16a.64.64,0,0,1,.64.64V12.16a.64.64,0,0,1-.64.64H.64A.64.64,0,0,1,0,12.16Z" transform="translate(5.6 5.6)" fill="#42424d"/>
+  <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M3.235,11.541l-3.1-3.1a.476.476,0,0,1,0-.674L.813,7.1a.476.476,0,0,1,.674,0L3.572,9.183,8.039,4.717a.476.476,0,0,1,.674,0l.674.674a.476.476,0,0,1,0,.674L3.909,11.541A.476.476,0,0,1,3.235,11.541Z" transform="translate(7.237 3.871)" fill="#fff"/>
+  <rect id="Rectangle_4027" data-name="Rectangle 4027" width="24" height="24" fill="none"/>
+</svg>

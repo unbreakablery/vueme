@@ -1,0 +1,57 @@
+
+@media (min-width: 1904px){
+    .container {
+        max-width: 1380px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        width: 130px;
+    }
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.section-active.theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+    background-color: #9759FF;
+    color: #FFFFFF !important;
+}
+
+.section-active .v-icon {
+    color: #FFFFFF !important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.v-application .user-avatar button{
+    padding: 0px !important;
+    width: auto !important;;
+    height: auto !important;;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.v-radio label{
+    padding-top: 8px;
+}
+
+

@@ -1,0 +1,81 @@
+#profile-pic.overlay-upload-btn .hover {
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 1em 1em 0;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 0px;
+  text-align: center;
+  z-index: 5;
+}
+
+#profile-pic.overlay-upload-btn .hover a, #profile-pic.overlay-upload-btn .hover {
+  font-weight: 500;
+  font-size: 10px;
+  color: #fff;
+}
+
+#profile-pic.overlay-upload-btn .hover a:hover, #profile-pic.overlay-upload-btn .hover:hover {
+  text-decoration: none;
+}
+
+#profile-pic.overlay-upload-btn:hover .hover {
+  display: inline-block;
+}
+
+#profile-pic2.overlay-upload-btn .hover {
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 1em 1em 0;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  width: 104px;
+  height: 68px;
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#profile-pic2.overlay-upload-btn .hover a, #profile-pic2.overlay-upload-btn .hover {
+  font-weight: 500;
+  font-size: 10px;
+  color: #fff;
+}
+
+#profile-pic2.overlay-upload-btn .hover a:hover, #profile-pic2.overlay-upload-btn .hover:hover {
+  text-decoration: none;
+}
+
+#profile-pic2.overlay-upload-btn:hover .hover {
+  display: inline-block;
+}
+
+#fullbody-pic.overlay-upload-btn .hover {
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0 1em 1em 0;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: -10px;
+  text-align: center;
+}
+
+#fullbody-pic.overlay-upload-btn .hover a, #fullbody-pic.overlay-upload-btn .hover {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
+
+#fullbody-pic.overlay-upload-btn .hover a:hover, #fullbody-pic.overlay-upload-btn .hover:hover {
+  text-decoration: none;
+}
+
+#fullbody-pic.overlay-upload-btn:hover .hover {
+  display: inline-block;
+}
+/*# sourceMappingURL=profile.css.map */

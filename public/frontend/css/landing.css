@@ -1,0 +1,488 @@
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;
+
+500;600;700&display=swap);* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background: #E7E6E8 !important;
+}
+
+li {
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.landing .menubar {
+  width: 100%;
+  padding: 10px 0px;
+  background: #fff !important;
+}
+
+.landing .menubar .navbar {
+  padding: 0.5rem 0;
+}
+
+.landing .menubar ul li {
+  padding: 10px;
+  align-self: center;
+  margin-bottom: 0;
+}
+
+.landing .menubar ul li a {
+  color: #131220 !important;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+
+.landing .menubar ul li sign-up {
+  padding: 8px 15px;
+  color: #fff !important;
+  font-size: 12px;
+  border-radius: 9px 9px;
+  background: transparent linear-gradient(180deg, #7272FF !important 0%, #9759FF !important 100%) 0% 0% no-repeat padding-box;
+}
+
+.landing .menubar ul li sign-up:hover {
+  background: transparent linear-gradient(90deg, #7272FF !important 0%, #9759FF !important 100%) 0% 0% no-repeat padding-box;
+}
+
+.landing .menubar .icon {
+  background: #000 !important;
+  height: 1px;
+  width: 30px;
+  position: relative;
+  display: table;
+  padding: 2px;
+  margin: 5px;
+}
+
+.landing .navbar-dark .navbar-brand {
+  color: #131220 !important;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  font-size: 30px !important;
+  font-family: "Lobster", cursive;
+  padding-right: 20px;
+}
+
+.landing .navbar-dark .navbar-brand:focus {
+  color: #000 !important;
+}
+
+.landing .navbar-dark .navbar-brand:hover {
+  color: #000 !important;
+}
+
+.landing .logo a {
+  color: #0F0F0F !important;
+  font-size: 30px !important;
+  font-family: "Lobster", cursive;
+  padding-right: 20px;
+}
+
+.landing .suggestion {
+  padding-bottom: 20px;
+}
+
+.landing .btn-follow {
+  color: #9759FF !important;
+  background-repeat: #fff !important;
+  padding: 5px 20px;
+  font-size: 12px;
+  letter-spacing: 0.43px;
+  border-radius: 9px;
+  border: 2px solid #9759FF !important;
+}
+
+.landing .live-now {
+  padding: 30px 0px;
+  background: #F1F1F1 !important 0% 0% no-repeat padding-box;
+}
+
+.landing .category-icone {
+  padding: 10px;
+  font-size: 20px;
+  color: #000 !important;
+  text-align: center;
+  border-radius: 4px;
+  background: #F77F98 !important;
+}
+
+.landing .category-name {
+  color: #F77F98 !important;
+  font-size: 22px;
+  margin-left: 16px;
+  align-self: center;
+}
+
+.landing .bigcard-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(337px, 1fr));
+  grid-gap: 14px;
+}
+
+.landing .model-img {
+  min-height: 144px;
+  max-width: 135px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 2px solid #E31616 !important;
+}
+
+.landing .model-img img {
+  border-radius: 20px;
+  border: 2px solid #fff !important;
+}
+
+.landing .model-info {
+  flex-grow: 1;
+  align-self: center;
+  background: #fff !important;
+  padding: 20px;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: 0px 3px 6px #0000001F;
+}
+
+.landing .model-info .rate {
+  font-weight: 500;
+  font-size: 12px;
+  color: #131220 !important;
+  letter-spacing: 0px;
+  margin-bottom: 0;
+}
+
+.landing .model-info .model-name {
+  font-size: 18px;
+  color: #131220 !important;
+  margin-bottom: 0;
+}
+
+.landing .model-info .model-type {
+  font-size: 11px;
+  color: #949498 !important;
+}
+
+.landing .btn-view-more {
+  color: #fff !important;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 9px;
+  font-size: 14px;
+  background: transparent linear-gradient(90deg, #9759FF !important 0%, #7272FF !important 100%) 0% 0% no-repeat padding-box;
+}
+
+.landing .featured {
+  padding: 30px 0px;
+  background: #fff !important;
+}
+
+.landing .featured .model-img {
+  border: none;
+}
+
+.landing .all {
+  padding: 30px 0px;
+  background: #F1F1F1 !important;
+}
+
+.landing .all .model-img {
+  border: none;
+}
+
+.landing .week {
+  padding: 30px 0px;
+  background: #fff !important;
+}
+
+.landing .week .title {
+  text-align: center;
+  color: #42424D !important;
+}
+
+.landing .week .model-gallary {
+  flex-grow: 1;
+  display: grid;
+  grid-template: 1fr 1fr/1fr 2fr;
+  grid-gap: 5px;
+}
+
+.landing .week .img-item {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.landing .week .img-item:nth-child(2) {
+  grid-row: 1/-1;
+  grid-column: 2/-1;
+  justify-self: start;
+}
+
+.landing .week .gallary-info {
+  flex-grow: 1;
+}
+
+.landing .gallary-info .rate {
+  color: #949498 !important;
+  font-size: 11px;
+}
+
+.landing .gallary-info .model-name {
+  color: #131220 !important;
+  font-size: 22px;
+}
+
+.landing .gallary-info .model-title {
+  color: #949498 !important;
+  font-size: 12px;
+}
+
+.landing .gallary-info .description {
+  font-size: 14px;
+  color: #4e4d5c !important;
+}
+
+.landing .signin {
+  padding: 35px 0px;
+  background: #F1F1F1 !important;
+}
+
+.landing .signin .slogan {
+  color: #000 !important;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.landing .signin .slogan-2 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.landing .signin .text-light {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.landing .signin label {
+  font-size: 12px;
+}
+
+.landing .btn-google {
+  padding: 4px;
+  background: #4285F4 !important;
+  display: block;
+  border-radius: 5px;
+}
+
+.landing .btn-google img {
+  padding: 5px;
+  background: #fff !important;
+}
+
+.landing .btn-twitter {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  background: #03AFF0 !important;
+}
+
+.landing .btn-twitter .fa-twitter {
+  font-size: 18px;
+  padding: 8px;
+}
+
+.landing .footer {
+  padding: 20px 0px;
+  background: #F1F1F1 !important;
+}
+
+.landing .footer .line {
+  height: 1px;
+  background: #131220 !important;
+}
+
+.landing .footer .heading {
+  color: #131220 !important;
+  font-size: 18px;
+}
+
+.landing .footer .link {
+  display: block;
+  color: #131220 !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.landing .footer .fa {
+  color: #fff !important;
+  padding: 2px;
+  font-size: 18px;
+  background: #131220 !important;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.landing .mobile_1 {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .landing .menubar .d-flex {
+    display: block !important;
+  }
+
+  .landing .menubar .navbar {
+    z-index: 999;
+  }
+
+  .landing .mobile_1 {
+    position: absolute;
+    width: 200px;
+    z-index: 10000;
+    top: 35px;
+    right: 0px;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  .landing .mobile_1 .pr-0 {
+    display: block;
+  }
+
+  .landing .pr-0 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .landing .suggestion {
+    height: 262px;
+    position: relative;
+    overflow: scroll;
+    scrollbar-width: thin;
+  }
+
+  .landing .suggestion .card-wrapper {
+    display: table;
+  }
+
+  .landing .main_card {
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .landing .live-now .bigcard-wrapper {
+    display: block;
+  }
+
+  .landing .featured .bigcard-wrapper {
+    display: block;
+  }
+
+  .landing .all .bigcard-wrapper {
+    display: block;
+  }
+
+  .landing .bigcard {
+    margin-bottom: 15px;
+  }
+
+  .landing .gallary-info {
+    margin: 20px 0;
+  }
+
+  .landing .signin .col-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    text-align: center;
+    margin: 10px auto;
+    display: table;
+  }
+
+  .landing .signin .btn-google {
+    width: 100%;
+  }
+
+  .landing .signin .d-flex {
+    display: block !important;
+  }
+
+  .landing .signin .text-center {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 420px) and (min-width: 260px) {
+  .landing .btn-follow {
+    font-size: 12px;
+  }
+
+  .landing .model-info .model-type {
+    font-size: 10px;
+  }
+
+  .landing .model-info .model-name {
+    font-size: 14px;
+  }
+
+  .landing .model-info .rate {
+    font-size: 11px;
+  }
+
+  .landing .signin .slogan {
+    font-size: 24px;
+  }
+
+  .landing .signin .slogan-2 {
+    font-size: 16px;
+  }
+}
+
+.landing .header .home-header-bar {
+  position: -webkit-sticky;
+  width: 100%;
+  z-index: 202;
+  display: block;
+}
+
+.landing .header .home-header-bar .header-top-link {
+  height: 40px;
+  background-color: #E7E6E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing .header .home-header-bar .header-top-link li {
+  list-style-type: none;
+  float: left;
+  padding: 0 9px;
+}
+
+.landing .header .home-header-bar .header-top-link li a {
+  color: #131220;
+  font-size: 12px;
+  text-decoration: underline;
+}
+

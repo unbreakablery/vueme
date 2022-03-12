@@ -1,0 +1,165 @@
+#tokbox-videos {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 414px) {
+  #tokbox-videos {
+    height: 100%;
+  }
+}
+
+#tokbox-videos #tokbox-subscriber {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#tokbox-videos #tokbox-subscriber .OT_video-poster {
+  border-radius: 50%;
+  background-size: cover !important;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #8EBEF8;
+}
+
+#tokbox-videos #tokbox-subscriber .OT_subscriber .OT_name {
+  left: 0 !important;
+  right: 0 !important;
+}
+
+#tokbox-videos #tokbox-subscriber .OT_subscriber .OT_mute, #tokbox-videos #tokbox-subscriber .OT_subscriber .OT_bar {
+  display: none;
+}
+
+#tokbox-videos #tokbox-subscriber .OT_edge-bar-item.OT_mode-on {
+  top: 245px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: x-large;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@media only screen and (max-width: 414px) {
+  #tokbox-videos #tokbox-subscriber .OT_video-poster {
+    border-radius: 50%;
+    background-size: cover !important;
+    width: 180px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  #tokbox-videos #tokbox-subscriber .OT_edge-bar-item.OT_mode-on {
+    top: 245px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: x-large;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+#tokbox-videos #tokbox-publisher {
+  position: absolute;
+  width: 230px;
+  height: 150px;
+  top: 24px;
+  left: 24px;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 414px) {
+  #tokbox-videos #tokbox-publisher {
+    top: 24px;
+    left: 24px;
+    width: 184px;
+    height: 120px;
+  }
+}
+
+#tokbox-videos #tokbox-publisher .OT_publisher .OT_mute {
+  display: none;
+}
+
+#tokbox-videos #tokbox-publisher .OT_video-poster {
+  position: relative;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 114px;
+  height: 114px;
+  background-size: cover !important;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+#tokbox-videos #tokbox-publisher .OT_edge-bar-item.OT_mode-on {
+  top: 167px !important;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: x-large;
+}
+
+@media only screen and (max-width: 414px) {
+  #tokbox-videos #tokbox-publisher .OT_widget-container {
+    background-color: transparent !important;
+  }
+  #tokbox-videos #tokbox-publisher .OT_video-element {
+    /* width: 170px !important;
+            height: 100px !important;
+            margin-top: 39% !important;
+            margin-left: 1% !important;*/
+  }
+  #tokbox-videos #tokbox-publisher .OT_video-poster {
+    border-radius: 50%;
+    background-size: cover !important;
+    width: 170px !important;
+    height: 170px !important;
+    margin-top: 9% !important;
+  }
+  #tokbox-videos #tokbox-publisher .OT_edge-bar-item.OT_mode-on {
+    top: 205px !important;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: x-large;
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  #tokbox-buttons {
+    position: absolute;
+    bottom: 35px;
+    z-index: 40;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=tokbox.css.map */

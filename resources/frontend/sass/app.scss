@@ -1,0 +1,111 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import './../../sass/app';
+
+@import 'tokbox';
+
+
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url('/fonts/Gotham-Black-Regular.ttf');
+}
+
+
+.content{
+  //margin-bottom: 100px;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    .content{
+     // margin-bottom: 70px;
+    }
+  }
+}
+.theme--light.v-application{
+  background: #F0F0F7 !important;
+}
+.toogle2{
+  background: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 129px;
+    // padding: 17px 0px
+}
+.appointment .toogle2 .btn-switch{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  transition: background 600ms ease, color 600ms ease;
+}
+
+.appointment .toogle2 input[type="radio"].toggle {
+  display: none;
+  & + label{
+      cursor: pointer;
+      min-width: 55px;
+      font-size: 12px;
+      margin: 0px !important;
+      font-weight: 500 !important;
+      color: #1F1E34 !important;
+      &:hover{
+          background: none;
+          color: #1F1E34;
+      }
+      &:after{
+          background: #8EBEF8;
+          content: "";
+          height: 100%;
+          position: absolute;
+          top: 0;
+          transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+          width: 55px;
+          z-index: 1;
+          border-radius: 28px;
+      }
+  }
+  & + label.schedule{
+    min-width: 68px;
+  }
+  & + label>span{
+    opacity: 0.5;
+  }
+  &.toggle-left + label {
+      border-right: 0;
+      &:after{
+          left: 100%;
+          z-index: 1;
+      }
+  }
+  &.toggle-right + label{
+      &:after{
+          left: -100%;
+      }
+  }
+  &:checked + label {
+      cursor: default;
+      color: #fff !important;
+      transition: color 200ms;
+      z-index: 2;
+      &:after{
+          left: 0;
+          z-index: -1;
+      }
+  }
+  &:checked + label>span{
+    opacity: 1;
+  }
+}

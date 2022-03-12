@@ -1,0 +1,17 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Vue date picker styles
+@import "vue-date-pick/src/vueDatePick.scss";
+
+@import "dashobard";
+@import "dashboard-home";
+@import "services";
+@import "profile";
+@import "tokbox";

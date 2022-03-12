@@ -1,0 +1,7 @@
+<svg id="reviews_icon" data-name="reviews icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-star" transform="translate(2 2)">
+    <rect id="Rectangle" width="20" height="20" fill="none"/>
+    <path id="star-regular" d="M3.356,16.466a1.041,1.041,0,0,1-.414-1.018l.813-4.735L.315,7.36A1.042,1.042,0,0,1,.891,5.582l4.755-.693L7.771.58a1.042,1.042,0,0,1,1.868,0l2.125,4.31,4.755.693h-.008a1.042,1.042,0,0,1,.576,1.777l-3.44,3.353.814,4.735a1.042,1.042,0,0,1-1.51,1.1L8.7,14.309l-4.25,2.236a1.042,1.042,0,0,1-1.1-.08Z" transform="translate(1.667 1.667)" fill="#131220"/>
+  </g>
+  <rect id="Rectangle_3820" data-name="Rectangle 3820" width="24" height="24" fill="none"/>
+</svg>
